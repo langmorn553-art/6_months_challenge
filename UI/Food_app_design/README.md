@@ -27,6 +27,7 @@ Figma Design
 
 View My Figma Design here:
 https://www.figma.com/design/CdaIXM9SOVsIHExSihzeK8/food-app-design?node-id=0-1&t=0tiuP44rtJalEtw9-1
+
 Project Goals
 
 -Practice UI/UX design.
