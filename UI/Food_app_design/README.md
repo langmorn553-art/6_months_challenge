@@ -11,11 +11,17 @@ Figma
 Main Features
 
 -Home screen
+
 -Food menu and product listings
+
 -Food product details
+
 -Shopping cart
+
 -Checkout and order confirmation
+
 -Login and registration screens
+
 
 Figma Design
 
@@ -24,9 +30,13 @@ https://www.figma.com/design/CdaIXM9SOVsIHExSihzeK8/food-app-design?node-id=0-1&
 Project Goals
 
 -Practice UI/UX design.
+
 -Learn mobile application layout and navigation.
+
 -Create a user-friendly food ordering experience.
+
 -Use the design as a reference for future frontend development.
 
 Future Development
+
 -I plan to implement this design using HTML, CSS, and JavaScript.
