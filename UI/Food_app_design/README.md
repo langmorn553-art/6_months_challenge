@@ -41,3 +41,4 @@ Project Goals
 Future Development
 
 -I plan to implement this design using HTML, CSS, and JavaScript.
+ this add design is not finised yet
