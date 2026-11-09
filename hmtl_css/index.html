@@ -3,145 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        
-        .navbar {
-            background-color: #333;
-            color: #fff;
-            align-items: center;
-            font-family: Arial, sans-serif;
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-            padding-top: 20px;
-            padding-bottom: 20px;
-         
-            
-        }
-        .main-nav{
-            list-style-type: none;
-            color: #fff;
-            display: flex;
-            margin: 0;
-            padding: 0;
-            
-           
-        }
-        .main-nav li a {
-            display: inline-block;
-            margin-right: 50px;
-            color: #fff;
-            text-decoration: none;
-            align-items: center;
-            
-           
-           
-        }
-        .cover{
-        
-            width: 100%;
-            height: 50vh;
-            color: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-bottom: 20px;
-            padding-top: 20px;
-                
-        }
-        .cover img{
-            width: 100%;
-            height: 50vh;
-            object-fit: cover;
-            filter: brightness(80%);   
-         
-        }
-        .technologies{
-            text-align: center;
-            margin-top: 20px;
-        }
-        .technologies .section-title{
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        .technologies .container-techno{
-            margin-top:20px;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-        .technologies .box{
-            background-color: #f0f0f0;
-            padding: 10px;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            border: 1px solid #ffffff;
-        }
-        .technologies .box img{
-            width: 100%;
-            height: 200px;
-            border-radius: 5px;
-            object-fit: cover;
-          
-        }
-        .technologies .box img:hover{
-            transform: scale(1.05);
-            transition: transform 0.3s ease;
-        }
-        .section-title{
-            font-size: 24px;
-            margin-bottom: 20px;
-            font-family: "Lucida Console", Monaco, monospace;
-        }
-        footer{
-            background-color: #787373;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 5px;
-        }
-    </style>
+    <meta name="theme-color" content="#f7f8fc">
+    <meta name="description" content="A clear, thoughtful introduction to the technologies shaping our future.">
+    <title>Ai as guide tools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <ul class="main-nav">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#products">view Ai</a></li>
-            <li><a href="#support">support US</a></li>
-            <li><a href="#Contact">Contact </a></li>
-        </ul>
-    </nav>
-    <div class="cover">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4DcYomdcNXFtVkyyjBU2nGQssxhuLnuqXnn65N0VwQ&s=10" alt="img">
+    <header class="site-header" id="home">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="brand" href="#home" aria-label="Future, Explained home">
+                <span class="brand-mark" aria-hidden="true">F</span>
+                <span>future<span class="brand-light">, explained</span></span>
+            </a>
+            <ul class="main-nav">
+                <li><a href="#home" aria-current="page">Home</a></li>
+                <li><a href="#topics">Explore</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <a class="nav-cta" href="#topics">Discover topics <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
 
-    </div>
-    <div class="technologies">
-        <h2 class="section-title">The Khmer</h2>
-        <div class="container-techno">
-            <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg5pefm660dhBsuvaNLiq5gBCjt4EnADLmUBSaYb4mJg&s=10">
-                <p>Angkor Wat, located in Siem Reap, Cambodia, is the largest religious complex in the world. Spanning over 402 acres (162.6 hectares),
-                     this architectural marvel was constructed in the first half of the 12th century by Khmer King Suryavarman II. Initially built as a Hindu temple dedicated to the god Vishnu and serving as the king’s personal mausoleum, it gradually transitioned into a Theravada Buddhist temple towards the end of the 12th century. It remains an active site of Buddhist pilgrimage and stands as the ultimate symbol of Cambodian national pride, taking center stage on the country's national flag.</p>
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <img class="hero-image"
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4DcYomdcNXFtVkyyjBU2nGQssxhuLnuqXnn65N0VwQ&amp;s=10"
+                 alt="" fetchpriority="high">
+            <div class="hero-shade"></div>
+            <div class="hero-content">
+                <p class="eyebrow hero-eyebrow"><span></span> A guide to what’s next</p>
+                <h1 id="hero-title">Technology is changing.<br><em>Let’s make sense of it.</em></h1>
+                <p class="hero-copy">A friendly, no-hype introduction to the ideas and tools shaping the world around us.</p>
+                <a class="button button-light" href="#topics">Explore the topics <span aria-hidden="true">↓</span></a>
             </div>
-            <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbA3dgDGPWxyK3Yt7jNslaE7Iy_hqgXSxxSDMX-h6rhg&s=10">
-                <p>When people look for a "Khmer museum," they are typically referring to one of two definitive, world-class institutions that preserve the extraordinary heritage of the Khmer Empire: the National Museum of Cambodia in Phnom Penh or the Angkor National Museum in Siem Reap. Depending on which city you are visiting, each provides a distinctly powerful immersion into ancient 
-                    Khmer art, history, and spiritual traditions.</p>
-            </div>
-            <div class="box"><img src="https://www.medianama.com/wp-content/uploads/2025/05/Gemini_Generated_Image_x90k6qx90k6qx90k.png">
-            </div>
-              <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDnjxEkVgQqRjfwJAoGNi7RH8I1gnZGMzBkkKjLSITHw&s=10">
-            </div>
-              <div class="box"><img src="https://www.medianama.com/wp-content/uploads/2025/05/Gemini_Generated_Image_x90k6qx90k6qx90k.png">
-            </div>
-            
-        </div>
+            <p class="hero-caption">Curiosity is a good place to start.</p>
+        </section>
 
-    </div>
-    <footer>
-        <h1>Lang Morn</h1>
-        <p>&copy; 2026 Morn Developer. All rights reserved.</p>
-       
+        <section class="topics section-wrap" id="topics" aria-labelledby="topics-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow"><span class="eyebrow-line"></span> The big ideas</p>
+                    <h2 id="topics-title">A little more <span>understanding.</span></h2>
+                </div>
+                <p class="section-intro">From intelligent machines to the systems that power them, explore the technologies changing how we live and work.</p>
+            </div>
+
+            <div class="topic-grid">
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcBYZt5fXE6cQtTBeYlYDRnnypgERoiwSEpWVuheQA3g&amp;s=10" alt="" loading="lazy">
+                        <span class="card-number">01</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-category">The essentials</p>
+                        <h3>Artificial intelligence</h3>
+                        <p>What AI is, how it learns, and why it’s becoming part of everyday life.</p>
+                    </div>
+                </article>
+
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGu8lgaB1ohhTlyLzhTPvrN6AabMvRNdepJxn4533HeA&amp;s" alt="" loading="lazy">
+                        <span class="card-number">02</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-category">AI assistants</p>
+                        <h3>Claude &amp; conversations</h3>
+                        <p>Meet a new kind of assistant designed to understand and work with language.</p>
+                    </div>
+                </article>
+
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://www.medianama.com/wp-content/uploads/2025/05/Gemini_Generated_Image_x90k6qx90k6qx90k.png" alt="" loading="lazy">
+                        <span class="card-number">03</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-category">Behind the scenes</p>
+                        <h3>Deep learning</h3>
+                        <p>Discover how layered networks find patterns in data and improve with experience.</p>
+                    </div>
+                </article>
+
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDnjxEkVgQqRjfwJAoGNi7RH8I1gnZGMzBkkKjLSITHw&amp;s=10" alt="" loading="lazy">
+                        <span class="card-number">04</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-category">Human + machine</p>
+                        <h3>Conversational AI</h3>
+                        <p>How computers are learning to communicate through natural, everyday language.</p>
+                    </div>
+                </article>
+
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://www.medianama.com/wp-content/uploads/2025/05/Gemini_Generated_Image_x90k6qx90k6qx90k.png" alt="" loading="lazy">
+                        <span class="card-number">05</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-category">Seeing the world</p>
+                        <h3>Computer vision</h3>
+                        <p>Explore how machines interpret images, video, and the world in front of them.</p>
+                    </div>
+                </article>
+
+                <article class="topic-card">
+                    <div class="card-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS47hBmg3HliZJ65h5FhrzjBVo29jjqh6pOAIavKauzYQ&amp;s=10" alt="" loading="lazy">
+                        <span class="card-number">06</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="card-category">A closer look</p>
+                        <h3>Google Gemini</h3>
+                        <p>A family of AI models built to work across text, images, and more.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="about" id="about" aria-labelledby="about-title">
+            <div class="about-inner">
+                <p class="eyebrow"><span class="eyebrow-line"></span> A note on the future</p>
+                <h2 id="about-title">Less noise.<br><span>More perspective.</span></h2>
+                <p>Technology moves quickly. Understanding it shouldn’t feel complicated. Start with a question, follow your curiosity, and make up your own mind.</p>
+                <a class="about-link" href="#home">Back to the beginning <span aria-hidden="true">↑</span></a>
+            </div>
+            <div class="about-decoration" aria-hidden="true">
+                <span class="orbit orbit-one"></span>
+                <span class="orbit orbit-two"></span>
+                <span class="orbit orbit-three"></span>
+                <span class="orbit-center">F</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a class="brand footer-brand" href="#home">
+            <span class="brand-mark" aria-hidden="true">F</span>
+            <span>future<span class="brand-light">, explained</span></span>
+        </a>
+        <p id="contact">Stay curious. Keep asking.</p>
+        <p class="copyright">&copy; 2026 Future, Explained. Made for curious minds.</p>
     </footer>
 </body>
 </html>
